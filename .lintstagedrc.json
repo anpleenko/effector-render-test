@@ -1,0 +1,5 @@
+{
+  "*.(css|yml)": ["prettier --write"],
+  "*.(ts|tsx)": ["prettier --write", "eslint --fix", "jest --bail --findRelatedTests --passWithNoTests"],
+  "package.json": ["prettier-package-json --write"]
+}
